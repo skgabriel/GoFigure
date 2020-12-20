@@ -1,1 +1,1 @@
-# Go-Figure
+# GoFigure
