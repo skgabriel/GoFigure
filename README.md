@@ -1,29 +1,29 @@
-## Go-Figure: A Meta Evaluation of Factuality in Summarization
+### Go-Figure: A Meta Evaluation of Factuality in Summarization
 
 ## Automatic evaluation data is in the following format:
 
-# auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (gold articles) 
-# auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (transformed summaries) 
+auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (gold articles) 
+auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (transformed summaries) 
 
-# Types are either "entity" or "verb"
-# Datasets are {samsum, cnndm, xsum}
+Types are either "entity" or "verb"
+Datasets are {samsum, cnndm, xsum}
 
 ## Human eval data is in the following format:
 
-# human_eval/samsum.csv 
-# human_eval/xsum.csv 
+human_eval/samsum.csv 
+human_eval/xsum.csv 
 
 ## The important keys for the csv headers are the following:
 
-# HITId
-# Input.full_art
-# Input.ref
+HITId
+Input.full_art (source article)
+Input.ref (gold summary)
 
-# Answer.fact.1 (not factual) 
-# Answer.fact.2 (factual)
-# Answer.fact.3 (too incoherent to tell factuality) 
+Answer.fact.1 (not factual) 
+Answer.fact.2 (factual)
+Answer.fact.3 (too incoherent to tell factuality) 
 
-# Answer.select{i} (ith error/inconsistency found in summary) 
+Answer.select{i} (ith error/inconsistency found in summary) 
 
 If you use this data in your work, please cite the following:
 
