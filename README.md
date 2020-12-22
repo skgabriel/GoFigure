@@ -1,6 +1,6 @@
-### Go-Figure: A Meta Evaluation of Factuality in Summarization
+## Go-Figure: A Meta Evaluation of Factuality in Summarization
 
-## Automatic evaluation data is in the following format:
+### Automatic evaluation data is in the following format:
 
 auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (gold articles) 
 auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (transformed summaries) 
@@ -8,12 +8,12 @@ auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (t
 Types are either "entity" or "verb"
 Datasets are {samsum, cnndm, xsum}
 
-## Human eval data is in the following format:
+### Human eval data is in the following format:
 
 human_eval/samsum.csv 
 human_eval/xsum.csv 
 
-## The important keys for the csv headers are the following:
+### The important keys for the csv headers are the following:
 
 HITId
 Input.full_art (source article)
