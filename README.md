@@ -41,3 +41,9 @@ author={Gabriel, Saadia and Celikyilmaz, Asli and Jha, Rahul and Choi, Yejin and
 year={2020},
 }
 ```
+
+### TODO
+
+- [x] Add automatic evaluation data (transformed summaries, upper/lower bounds) 
+- [x] Add human evaluation data 
+- [ ] Add general pipeline / analysis scripts for evaluating with various metrics 
