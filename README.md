@@ -10,6 +10,8 @@ Types are either "entity" or "verb"
 
 Datasets are {samsum, cnndm, xsum}
 
+The original data files are under auto_eval/{dataset}/{dataset}_500_source.txt and auto_eval/{dataset}/{dataset}_500_target.txt
+
 ### Human eval data:
 
 human_eval/samsum.csv 
