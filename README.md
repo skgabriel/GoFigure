@@ -16,7 +16,7 @@ human_eval/samsum.csv
 
 human_eval/xsum.csv 
 
-### The important keys for the csv headers are the following:
+### The important keys for the csv headers:
 
 - HITId
 
