@@ -42,7 +42,7 @@ year={2020},
 }
 ```
 
-### TODO
+### Current and upcoming contents of repo
 
 - [x] Add automatic evaluation data (transformed summaries, upper/lower bounds) 
 - [x] Add human evaluation data 
