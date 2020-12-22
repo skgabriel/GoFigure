@@ -2,9 +2,9 @@
 
 ### Automatic evaluation data files are in the following formats:
 
-auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (gold articles) 
+auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors-1}_{dataset}.source (gold articles) 
 
-auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.target (transformed summaries) 
+auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors-1}_{dataset}.target (transformed summaries) 
 
 Types are either "entity" or "verb"
 
