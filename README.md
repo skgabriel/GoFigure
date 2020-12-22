@@ -10,11 +10,15 @@ Types are either "entity" or "verb"
 
 Datasets are {samsum, cnndm, xsum}
 
+---
+
 ### Human eval data is in the following format:
 
 human_eval/samsum.csv 
 
-human_eval/xsum.csv 
+human_eval/xsum.csv
+
+---
 
 ### The important keys for the csv headers:
 
