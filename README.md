@@ -34,7 +34,7 @@ human_eval/xsum.csv
 
   - Answer.fact.3 (too incoherent to tell factuality) 
 
-  - Answer.select{i} (ith error/inconsistency found in summary) 
+  - Answer.select{i} (ith error found in summary) 
 
 If you use this data in your work, please cite the following:
 
