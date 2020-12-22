@@ -12,11 +12,15 @@ Datasets are {samsum, cnndm, xsum}
 
 The original data files are under auto_eval/{dataset}/{dataset}_500_source.txt and auto_eval/{dataset}/{dataset}_500_target.txt
 
+Each line is an article or summary 
+
 ### Human eval data:
 
 human_eval/samsum.csv 
 
 human_eval/xsum.csv
+
+Each row is a set of annotations 
 
 ### The column keys for the csv headers:
 
