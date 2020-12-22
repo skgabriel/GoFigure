@@ -1,4 +1,4 @@
-#### GoFigure
+## Go-Figure: A Meta Evaluation of Factuality in Summarization
 
 If you use this data in your work, please cite the following:
 
