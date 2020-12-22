@@ -7,21 +7,27 @@ auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (g
 auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (transformed summaries) 
 
 Types are either "entity" or "verb"
+
 Datasets are {samsum, cnndm, xsum}
 
 ### Human eval data is in the following format:
 
 human_eval/samsum.csv 
+
 human_eval/xsum.csv 
 
 ### The important keys for the csv headers are the following:
 
 HITId
+
 Input.full_art (source article)
+
 Input.ref (gold summary)
 
 Answer.fact.1 (not factual) 
+
 Answer.fact.2 (factual)
+
 Answer.fact.3 (too incoherent to tell factuality) 
 
 Answer.select{i} (ith error/inconsistency found in summary) 
