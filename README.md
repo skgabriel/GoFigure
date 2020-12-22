@@ -20,17 +20,21 @@ human_eval/xsum.csv
 
 - HITId
 
-- Input.full_art (source article)
+- Inputs 
 
-- Input.ref (gold summary)
+  - Input.full_art (source article)
 
-- Answer.fact.1 (not factual) 
+  - Input.ref (gold summary)
+  
+- Annotations 
 
-- Answer.fact.2 (factual)
+  - Answer.fact.1 (not factual) 
 
-- Answer.fact.3 (too incoherent to tell factuality) 
+  - Answer.fact.2 (factual)
 
-- Answer.select{i} (ith error/inconsistency found in summary) 
+  - Answer.fact.3 (too incoherent to tell factuality) 
+
+  - Answer.select{i} (ith error/inconsistency found in summary) 
 
 If you use this data in your work, please cite the following:
 
@@ -44,6 +48,6 @@ year={2020},
 
 ### Current and upcoming contents of repo
 
-- [x] Add automatic evaluation data (transformed summaries, upper/lower bounds) 
-- [x] Add human evaluation data 
-- [ ] Add general pipeline / analysis scripts for evaluating with various metrics 
+- [x] Automatic evaluation data (transformed summaries, upper/lower bounds) 
+- [x] Human evaluation data 
+- [ ] General pipeline / analysis scripts for evaluating with various metrics 
