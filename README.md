@@ -2,8 +2,6 @@
 
 ### Automatic evaluation data is in the following format:
 
----
-
 auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (gold articles) 
 
 auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (transformed summaries) 
@@ -14,15 +12,11 @@ Datasets are {samsum, cnndm, xsum}
 
 ### Human eval data is in the following format:
 
----
-
 human_eval/samsum.csv 
 
 human_eval/xsum.csv
 
 ### The important keys for the csv headers:
-
----
 
 - HITId
 
@@ -51,6 +45,8 @@ author={Gabriel, Saadia and Celikyilmaz, Asli and Jha, Rahul and Choi, Yejin and
 year={2020},
 }
 ```
+
+---
 
 ### Current and upcoming contents of repo
 
