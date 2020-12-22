@@ -1,6 +1,6 @@
 ## Go-Figure: A Meta Evaluation of Factuality in Summarization
 
-### Automatic evaluation data is in the following format:
+### Automatic evaluation data files are in the following formats:
 
 auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (gold articles) 
 
@@ -10,7 +10,7 @@ Types are either "entity" or "verb"
 
 Datasets are {samsum, cnndm, xsum}
 
-### Human eval data is in the following format:
+### Human eval data:
 
 human_eval/samsum.csv 
 
