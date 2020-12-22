@@ -3,6 +3,7 @@
 ### Automatic evaluation data is in the following format:
 
 auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (gold articles) 
+
 auto_eval/{dataset}/{type}/run{num}/transformed_{max_errors}_{dataset}.source (transformed summaries) 
 
 Types are either "entity" or "verb"
