@@ -32,9 +32,9 @@ Each row is a set of annotations
   
 - Annotations 
 
-  - Answer.fact.1 (not factual) 
+  - Answer.fact.1 (factual) 
 
-  - Answer.fact.2 (factual)
+  - Answer.fact.2 (not factual)
 
   - Answer.fact.3 (too incoherent to tell factuality) 
 
