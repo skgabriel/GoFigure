@@ -18,19 +18,19 @@ human_eval/xsum.csv
 
 ### The important keys for the csv headers are the following:
 
-HITId
+- HITId
 
-Input.full_art (source article)
+- Input.full_art (source article)
 
-Input.ref (gold summary)
+- Input.ref (gold summary)
 
-Answer.fact.1 (not factual) 
+- Answer.fact.1 (not factual) 
 
-Answer.fact.2 (factual)
+- Answer.fact.2 (factual)
 
-Answer.fact.3 (too incoherent to tell factuality) 
+- Answer.fact.3 (too incoherent to tell factuality) 
 
-Answer.select{i} (ith error/inconsistency found in summary) 
+- Answer.select{i} (ith error/inconsistency found in summary) 
 
 If you use this data in your work, please cite the following:
 
