@@ -1,4 +1,4 @@
-## Go-Figure: A Meta Evaluation of Factuality in Summarization
+## GO FIGURE: A Meta Evaluation of Factuality in Summarization
 
 ### Automatic evaluation data files are in the following formats:
 
