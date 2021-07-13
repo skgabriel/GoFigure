@@ -17,19 +17,17 @@ if args.type == 'auto':
    source = open(root_ + '.source').readlines() #articles
    target = open(root_ + '.target').readlines() #summaries 
    df = pd.DataFrame(list(zip(source,target)),columns=['Article','Summary'])
-   df.style.set_properties(subset=['source'], **{'width': '1000px'})
-   df.style.set_properties(subset=['target'], **{'width': '1000px'})
    tabloo.show(df)
 elif args.type == 'random':
    root_ =  './auto_eval/' + args.dataset + '/'
-   target = open(root_ + args.dataset + '_500_random' + '.txt').readlines() #articles
-   source = open(root_ + args.dataset + '_500_source' + '.txt').readlines() #summaries
+   target = open(root_ + args.dataset + '_500_random' + '.txt').readlines() #summaries
+   source = open(root_ + args.dataset + '_500_source' + '.txt').readlines() #articles
    df = pd.DataFrame(list(zip(source,target)),columns=['Article','Summary'])
    tabloo.show(df)
 elif args.type == 'gold':
    root_ =  './auto_eval/' + args.dataset + '/'                                                              
-   target = open(root_ + args.dataset + '_500_target' + '.txt').readlines() #articles
-   source = open(root_ + args.dataset + '_500_source' + '.txt').readlines() #summaries
+   target = open(root_ + args.dataset + '_500_target' + '.txt').readlines() #summaries
+   source = open(root_ + args.dataset + '_500_source' + '.txt').readlines() #articles
    df = pd.DataFrame(list(zip(source,target)),columns=['Article','Summary'])
    tabloo.show(df)
 #note this covers xsum and samsum
